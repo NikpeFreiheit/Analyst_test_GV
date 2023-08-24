@@ -1,0 +1,119 @@
+@startuml
+
+skinparam actorStyle awesome
+left to right direction
+
+    actor "Клиент/Покупатель" as cl
+    actor "Сотрудник по работе \nс товарами в ИС" as adm_is
+    actor "Руководитель магазина" as boss
+    actor "Главный бухгалтер" as g_buh
+    actor "Заведующий складом" as g_storage
+    actor "Оператор/Администратор \nонлайн-магазина" as adm_onl
+    actor "Оператор склада" as adm_storage
+    actor "Бухгалтер" as buh
+    actor "Сотрудник доставки" as deliv
+    actor "Поставщик банковских \nуслуг" as bank
+    actor "Внешние системы-источники \nновых клиентов" as adver
+
+
+rectangle "Онлайн-магазин" {
+    usecase "Формирует\nзаказ" as UC1
+    usecase "Оставляет комментарий \nк заказу, товару" as UC2
+    usecase "Cоздавёт, изменяет, отменяет \nзаказ онлайн" as UC3
+    usecase "Оплачивает \nзаказ онлайн" as UC4
+    usecase "Запрашивает \nкредит/рассрочку" as UC5
+    usecase "Управляет ЛК" as UC6
+    usecase "Cоздаваёт, изменяет \nзаказ онлайн" as UC7
+    usecase "Отправляет данные о проблеме" as UC28
+    usecase "Управляет содержимым \nЛК клиента" as UC17
+  }
+
+
+rectangle "Отчеты" {
+    usecase "Получает отчет по \nоборотам в магазине, \nсостоянию товаров/заказов" as UC11
+    usecase "Получает отчет по \nоборотам в магазине" as UC12
+    usecase "Получает отчет по \nсостоянию товаров/заказов" as UC13
+ }
+
+
+rectangle "Склад" {
+    usecase "Вносит, изменяет, \nудаляет информацию \nо товаре" as UC14
+    usecase "Передаёт на склад \nзапросы о необходимых \nтоварах (закупке, поставке)" as UC19
+
+}
+
+rectangle "Бухгалтерия" {
+    usecase "Вносит, изменяет, \nудаляет бухгалтерскую \nинформацию" as UC15
+
+}
+
+rectangle "ИС по работе с товарами" {
+    usecase "Передаёт \nинформацио об оплате" as UC21
+    usecase "Создаёт, изменяет, \nотменяет заказ" as UC16
+
+    usecase "Создаёт, \nотправляет, \nполучает email и смс" as UC18
+    usecase "Передаёт информацию \nо полученных товрах \nи их качестве" as UC20
+    usecase "Обмениваеться информацией \nо портрете клиента/потенциального \nклиента" as UC22
+    usecase "Получает и передаёт \nконтактные данные клиента \nдля осуществления рекламы" as UC23
+    usecase "Отвечает на комментарии к товарам и заказам" as UC24
+    usecase "Отвечает о решении проблемы" as UC25
+}
+
+rectangle "Банк" {
+    usecase "выдавать \nкредит/рассрочку" as UC26
+    usecase "Получать \nоплату товара" as UC27
+}
+
+rectangle "Доставка" {
+    usecase "Получать заказ \nна свой адрес" as UC8
+    usecase "Передавать информацию \nо факте доставки/отказа" as UC9
+    usecase "Получать данные \nдля доставки" as UC10
+    }
+
+
+
+cl --> UC1
+cl --> UC2
+cl --> UC3
+cl --> UC4
+cl --> UC5
+cl --> UC6
+cl --> UC8
+cl --> UC18
+cl --> UC28
+
+
+UC23 <-- adver
+UC22 <-- adver
+
+boss --> UC11
+
+g_buh --> UC12
+
+g_storage --> UC13
+
+adm_onl --> UC7
+adm_onl --> UC17
+
+adm_storage --> UC14
+
+buh --> UC15
+
+adm_is --> UC25
+adm_is --> UC16
+
+adm_is --> UC18
+adm_is --> UC19
+adm_is --> UC20
+adm_is --> UC22
+adm_is --> UC24
+adm_is --> UC21
+
+UC26 <-- bank
+UC27 <-- bank
+UC21 <-- bank
+
+UC9 <-- deliv
+UC10 <-- deliv
+
+@enduml

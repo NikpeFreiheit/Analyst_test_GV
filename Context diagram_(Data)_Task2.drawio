@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2023-08-24T12:47:47.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1Zze6Qpn5coEDusqP9Jn" version="21.6.9" type="device">
+  <diagram name="Страница — 1" id="a-D6xfqY46fWp8b-w2nv">
+    <mxGraphModel dx="1811" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-2" target="zIIJMGEfTO_0ZU0WNrE1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-22" value="Категория машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Статус машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя водителя&lt;br&gt;Адрес расположения машины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.1145" y="1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-6" target="zIIJMGEfTO_0ZU0WNrE1-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-26" value="Статус машины&lt;br&gt;Категория машины&lt;br&gt;Номер машины&lt;br&gt;Имя водителя&lt;br&gt;Адрес расположения машины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-25" vertex="1" connectable="0">
+          <mxGeometry x="0.0406" y="2" relative="1" as="geometry">
+            <mxPoint x="24" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-2" value="Приложение для водителей" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="690" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-4" target="zIIJMGEfTO_0ZU0WNrE1-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-9" value="&lt;font color=&quot;#00cc00&quot;&gt;Цена поездки&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Категория машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Статус машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер машины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя водителя&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;Время подачи&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-7" vertex="1" connectable="0">
+          <mxGeometry x="0.0806" relative="1" as="geometry">
+            <mxPoint x="22" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-3" target="zIIJMGEfTO_0ZU0WNrE1-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-17" value="&lt;font color=&quot;#00cc00&quot;&gt;Цена поездки&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Категория машины&lt;br&gt;Статус машины&lt;br&gt;Номер машины&lt;br&gt;Имя водителя&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;Время подачи&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-16" vertex="1" connectable="0">
+          <mxGeometry x="0.0656" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-3" target="zIIJMGEfTO_0ZU0WNrE1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-20" value="Адрес клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер телефона&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Категория машины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.2627" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-3" value="Клиентское приложение по заказу такси" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="50" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-4" target="zIIJMGEfTO_0ZU0WNrE1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-10" value="Адрес клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер телефона&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя Клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;Цена поездки&lt;/font&gt;&lt;br&gt;Категория машины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.0635" y="1" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-4" value="ИС распределения заявок службы такси" style="ellipse;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.28,0.04,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-5" target="zIIJMGEfTO_0ZU0WNrE1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-15" value="Адрес клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер телефона&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя клиента&lt;br&gt;Категория машины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-5" value="Клиенты" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-2" target="zIIJMGEfTO_0ZU0WNrE1-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-14" value="Адрес клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Номер телефона&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Имя клиента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;Цена поездки&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zIIJMGEfTO_0ZU0WNrE1-13" vertex="1" connectable="0">
+          <mxGeometry y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-6" value="Водители" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="690" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="zIIJMGEfTO_0ZU0WNrE1-23" target="zIIJMGEfTO_0ZU0WNrE1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIIJMGEfTO_0ZU0WNrE1-23" value="Функции внутри системы:&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;Расчет стоимости&lt;/font&gt; (категория машины, адрес, время подачи)=Цена поездки&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;Расчет времени подачи&lt;/font&gt; (адрес клиента, расположение машины)&lt;br&gt;Определение свободной машины (Статус машины, Номер машины)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="405" width="460" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
