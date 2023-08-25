@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T16:08:51.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ptTFKiiZX1wMvt99TS0a" version="21.6.9" type="device">
+<mxfile host="app.diagrams.net" modified="2023-08-25T06:21:49.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="g7Zk5dvkloel3WwS8nxH" version="21.6.9" type="device">
   <diagram name="Страница — 1" id="RqOXmZJNrHoVhznG2_G9">
-    <mxGraphModel dx="3287" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1811" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,9 +89,14 @@
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Проводит авторизацию запросов" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Y9V8xfxvEzWhgQy77uQ2-30">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y9V8xfxvEzWhgQy77uQ2-9" target="Y9V8xfxvEzWhgQy77uQ2-3" edge="1">
-            <mxGeometry width="240" relative="1" as="geometry">
+            <mxGeometry x="-0.1429" width="240" relative="1" as="geometry">
               <mxPoint x="-350" y="-390" as="sourcePoint" />
               <mxPoint x="-510" y="-650" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="-420" y="-420" />
+                <mxPoint x="-420" y="-790" />
+              </Array>
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -101,9 +106,9 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="HTTP" c4Description="Отправляет логи" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="Y9V8xfxvEzWhgQy77uQ2-33">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y9V8xfxvEzWhgQy77uQ2-19" target="Y9V8xfxvEzWhgQy77uQ2-9" edge="1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.529;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Y9V8xfxvEzWhgQy77uQ2-9" target="Y9V8xfxvEzWhgQy77uQ2-19" edge="1">
             <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="-360" y="210" as="sourcePoint" />
+              <mxPoint x="-210" y="-200" as="sourcePoint" />
               <mxPoint x="20" y="110" as="targetPoint" />
             </mxGeometry>
           </mxCell>
