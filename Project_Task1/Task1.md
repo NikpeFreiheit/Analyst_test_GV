@@ -67,7 +67,8 @@
 
 # Функциональная модель
 ## Диаграммы Use Case
-Вставить из draw io или отдельным файлом вложить
+![Use case diagram](https://github.com/NikpeFreiheit/Analyst_test_GV/blob/master/Project_Task1/Use_case_Task1.png)
+
 ## Системные Use Case
 ## Функциональные требования
 
