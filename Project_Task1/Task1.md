@@ -59,7 +59,7 @@
 # Модели данных
 ## Контекстная диаграмма (DFD level 0)
 
-Вставить из draw io или отдельным файлом вложить
+![Context_diagram](https://github.com/NikpeFreiheit/Analyst_test_GV/blob/master/Project_Task1/Context_diagram_(Function-Data)_Task1.png)
 
 ## Логическая
 ### Модель предметной области
