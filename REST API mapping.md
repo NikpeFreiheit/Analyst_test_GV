@@ -1,5 +1,17 @@
 # REST API mapping
 
+<u>**Template**</u>
+|Name|Type|Mandatory|Default|Comments|
+|--|--|--|--|--|
+Headers
+|__|__|__|__|__|
+Path
+|__|__|__|__|__|
+Query
+|__|__|__|__|__|
+Body
+|__|__|__|__|__|
+
 <u>**GET method**</u>
 
 |Name|Type|Mandatory|Default|Comments|
