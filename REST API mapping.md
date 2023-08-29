@@ -45,6 +45,9 @@ http://url.com/orders/{order_number}
 В REST API path не выделяется как параметр, но для OpenAPI cуществует следующие типы параметров:
 - **Header parameters** (параметры заголовка) - Custom headers that are expected as part of the request.
 - **Path parameters** (параметры path) - Used together with Path Templating, where the parameter value is actually part of the operation's URL. This does not include the host or base path of the API.
+  
+  При проектировании RESTful API параметры пути (Path Parameters) определяют конкретные ресурсы (resources), а параметры запроса (Query Parameters) используются для того, чтобы искать (фильтровать) или сортировать эти ресурсы.
+  
 - **Query parameters** (параметры строки запроса) - Query parameters are optional key-value pairs that appear to the right of the ? in a URL. 
 - **Body parameters** (параметры тела запроса) -  The payload that's appended to the HTTP request. Since there can only be one payload, there can only be one body parameter. Body parameters and Form parameters cannot exist together for the same operation
 - **Form parameters** - This is the only parameter type that can be used to send files, thus supporting the file type.
